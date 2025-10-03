@@ -126,3 +126,79 @@ Aug 2020 - May 2022Aug 2020 - May 2022
 Grade: 4.0 GPA on a 4.0 ScaleGrade: 4.0 GPA on a 4.0 Scale
 Attended community college during my junior year of high school through an early college program offered through both schools. I graduated from the PPSC with my Associate's in General Studies before graduating from my high school that same year.Attended community college during my junior year of high school through an early college program offered through both schools. I graduated from the PPSC with my Associate's in General Studies before graduating from my high school that same year.…see more
 C++, Team Leadership and +1 skill
+
+
+
+
+
+
+FAAAAAAAAAAAAHHHH
+
+
+
+   0cbfd75..c7a56c0  elisayu         -> origin/elisayu
+   0cbfd75..40b8e82  main            -> origin/main
+petermorganelli@Peters-MacBook-Air-2 Experiment % git branch
+  main
+* peetah-branch
+petermorganelli@Peters-MacBook-Air-2 Experiment % git fetch --all
+petermorganelli@Peters-MacBook-Air-2 Experiment % git branch
+  main
+* peetah-branch
+petermorganelli@Peters-MacBook-Air-2 Experiment % git pull
+Already up to date.
+petermorganelli@Peters-MacBook-Air-2 Experiment % git checkout main 
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 4 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+petermorganelli@Peters-MacBook-Air-2 Experiment % git pull
+Updating 088e6a3..40b8e82
+Fast-forward
+ README | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+petermorganelli@Peters-MacBook-Air-2 Experiment % ls
+README
+petermorganelli@Peters-MacBook-Air-2 Experiment % git checkout peter-branch
+error: pathspec 'peter-branch' did not match any file(s) known to git
+petermorganelli@Peters-MacBook-Air-2 Experiment % ls
+README
+petermorganelli@Peters-MacBook-Air-2 Experiment % ls
+README
+petermorganelli@Peters-MacBook-Air-2 Experiment % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+petermorganelli@Peters-MacBook-Air-2 Experiment % git checkout peetah-branch 
+Switched to branch 'peetah-branch'
+Your branch is up to date with 'origin/peetah-branch'.
+petermorganelli@Peters-MacBook-Air-2 Experiment % git branch
+  main
+* peetah-branch
+petermorganelli@Peters-MacBook-Air-2 Experiment % git status
+On branch peetah-branch
+Your branch is up to date with 'origin/peetah-branch'.
+
+nothing to commit, working tree clean
+petermorganelli@Peters-MacBook-Air-2 Experiment % git commit -m "well hello yoda"
+On branch peetah-branch
+Your branch is up to date with 'origin/peetah-branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README
+
+no changes added to commit (use "git add" and/or "git commit -a")
+petermorganelli@Peters-MacBook-Air-2 Experiment % git add 
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+petermorganelli@Peters-MacBook-Air-2 Experiment % git add .
+petermorganelli@Peters-MacBook-Air-2 Experiment % git commit -m "well hello yoda"
+[peetah-branch a0c6454] well hello yoda
+ 1 file changed, 15 insertions(+), 6 deletions(-)
+petermorganelli@Peters-MacBook-Air-2 Experiment % git add .
+petermorganelli@Peters-MacBook-Air-2 Experiment % git commit -m "second one"
+[peetah-branch c68cabc] second one
+ 1 file changed, 111 insertions(+), 1 deletion(-)
